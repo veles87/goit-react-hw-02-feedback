@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 22px;
+
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  outline: none;
+ border-radius: 5px;
+
+
+  
+  cursor: pointer;
+ 
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(59, 119, 209, 0.849);
+  box-shadow: 0px 1px 1px rgba(203, 248, 2, 0.63), 0px 4px 4px rgba(231, 199, 19, 0.808), 1px 4px 6px rgb(248, 212, 5);
+}
